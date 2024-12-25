@@ -1,0 +1,126 @@
+/* Welcome.css */
+
+.welcome-box {
+    margin: 10% 10% 0 10%;  
+  
+   height: 450px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .logo-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .welcome-box-top{
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .sub-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+  }
+  .auth-butn{
+   margin: 10px 80px;
+   border: 1px solid #D8DAE5;
+    border-radius: 8px;
+display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+  }
+  .auth-butn .auth-cont{
+    font-size: 12px;
+    padding: 5px 10px ;
+    font-weight: 550;
+  }
+  .logo-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+ .welcome-box-top h2 {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #333333;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px ;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .button-section {
+    border-radius: 8px;
+    flex: 1;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: #555555;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button-section.active {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .auth-container {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 900px) {
+    .welcome-box {
+      margin: 10% 5% 10% 5%;
+      height: 400px;
+    }
+    .auth-butn {
+      margin: 5px 20px;
+    }
+    .logo-container {
+      margin: 0;
+      align-items: center;
+      text-align: center;
+      padding: 20px 0 10px 0;
+    }
+    .logo-container h1 {
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .welcome-box-top h2 {
+      font-size: 16px;
+      margin: 15px 0;
+    }
+    .button-container {
+      margin: 10px 15px 20px 15px;
+    }
+    .button-section {
+      font-weight: 500;
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .welcome-box {
+      margin: 20% 5% 10% 5%;
+    }
+  }
+  

@@ -1,0 +1,230 @@
+.repo {
+    flex-grow: 1; 
+    padding: 20px;
+ 
+  margin-left: 242px;
+  
+  }
+  .repo-body{
+    
+    
+ 
+  gap: 0px;
+  border-radius: 12px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+  }
+  .repo-head {
+    display: flex;
+    justify-content: space-between;
+  
+   padding: 0 20px ;
+  }
+  .repo-head h2 {
+    font-family: 'Inter', sans-serif; /* Added fallback font */
+    font-size: 30px; /* Standardized variable naming */
+    font-weight: 600;
+    line-height: 10px;
+    text-align: left;
+  
+    text-underline-position: under; /* Improves visual alignment */
+    text-decoration-skip-ink: auto; /* Default value for modern browsers */
+  }
+  
+  .repo-head p {
+    font-family: 'Inter', sans-serif; /* Added fallback font */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color:#414651;
+   
+  }
+  
+  
+  .repo-head-buttons {
+    display: flex;
+    gap: 10px; /* Adds consistent spacing between buttons */
+    padding: 20px 0;
+  }
+  
+  .repo-head-buttons button {
+    width: Hug (158px)px;
+  height: Hug (40px)px;
+  padding: 10px 14px 10px 14px;
+  
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  
+    height: 30px;
+    color:#414651;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Adds space between icon and text */
+    
+    border: none;
+    border-radius: 5px;
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .repo-head-buttons .refresh-btn {
+    background-color: #ffff;
+    border: 1px solid #D5D7DA
+   
+  }
+  
+  .repo-head-buttons .add-btn {
+    border: 2px solid;
+  
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100%);
+  
+  
+  background: #1570EF;
+  
+    color: white;
+  }
+  
+  .repo-head-buttons button:hover {
+    transform: scale(1.05); /* Subtle hover effect */
+    opacity: 0.9; /* Slight fade effect */
+  }
+  
+  .repo-head-buttons button:active {
+    transform: scale(1); /* Reverts on click */
+  }
+  
+  
+  
+  .repository-card {
+    width: 1,150px;
+  
+  padding: 24px ;
+  gap: 12px;
+  align-items: center;
+  opacity: 0px;
+    border: 1px solid #e1e4e8;
+   
+    
+    
+    background-color: #ffffff;
+   
+    font-family: Arial, sans-serif;
+  }
+  .repository-card:last-child {
+    border-radius: 0 0 12px 12px;
+  }
+  .repository-card:hover{
+    background: #F5F5F5;
+  
+  }
+  .repository-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .repository-title {
+    font-size: 18px;
+    font-weight: 550;
+    margin: 0;
+    margin-right: 8px;
+  }
+  
+  .repository-tag {
+    border: 1px solid #B2DDFF;
+    font-size: 12px;
+    color: #0969da;
+    background-color: #eaf3ff;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .repository-details {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #57606a;
+    gap: 8px;
+  }
+  
+  .dot-icon {
+   
+    color: #3182ce;
+  }
+  
+  .repository-size {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .file-icon {
+    font-size: 16px;
+    color: #57606a;
+  }
+  
+  .repo-search{
+    padding:0 20px 20px 20px ;  
+
+    
+
+  }
+  .repo-search .search-repo{
+    width: 366px;
+    
+  }
+ 
+  @media (max-width: 900px){
+    .repo-search .search-repo{
+        width: 100%;
+        
+      }
+    .repo-search{
+        padding: 20px;
+    }
+    .repo-head-buttons{
+        padding: 0;
+    }
+.repository-title
+{
+    font-size: 16px;
+    font-weight: 525;
+}
+.repo{
+    padding: 0;
+    margin: 20px 0 0;
+   
+}
+.repo-head{
+    display: grid;
+
+    margin-bottom: 0;
+}
+.repo-head h2{
+    font-size: 26px;
+}
+.repository-size{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.repository-details{
+    font-size: 12px;
+}
+.repository-tag{
+    margin-left: 5px;
+    font-size: 12px;}
+    .repo-body{
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+    }
+   
+  }

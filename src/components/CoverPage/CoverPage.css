@@ -1,0 +1,125 @@
+/* Root styles for the Cover Page */
+.cover-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #1e3a8a, #1d4ed8, #2563eb);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Centered content wrapper */
+  .content {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  /* Title with bold typography */
+  .title {
+    font-size: 3rem;
+    font-weight: 750;
+    margin-bottom: 15px;
+  }
+  
+  /* Subtitle with a softer touch */
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #cbd5e1;
+  }
+  
+  /* Button container for layout adjustments */
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Shared button styles */
+  .button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Primary button */
+  .button.primary {
+    background: linear-gradient(90deg, #4f46e5, #3b82f6);
+    
+  }
+  
+  /* Secondary button */
+  .button.secondary {
+    background: linear-gradient(90deg, #10b981, #06d6a0);
+  
+  }
+  
+  /* Hover and active states for buttons */
+  .button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button:active {
+    transform: translateY(0);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer styling */
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+  }
+  
+  .date-time {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle {
+      font-size: 1rem;
+    }
+  
+    .button {
+      font-size: 0.9rem;
+      padding: 12px 25px;
+    }
+    .date-time {
+        font-size: .8rem;
+        font-weight: 700;
+      }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+   
+  }
+  

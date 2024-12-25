@@ -1,0 +1,184 @@
+.welcome-container{
+  display: flex;
+}
+.dashboard-card {
+
+  z-index: 1000;
+  width:50%;
+  background: #ffffff;
+ 
+  height: 100vh;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+.welcome{
+  width: 50%;
+  height: 100vh;
+}
+.policy{
+  text-align: center;
+  margin: 5% 20px;
+}
+.policy span{
+  font-weight: bold;
+}
+.issues-card {
+  position: fixed;
+  justify-content: center;
+ display: flex;
+
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+padding-top:  20px  ;
+ width: 260px;
+ height: 160px;
+top:35%;
+left: 25%;
+ gap: 0px;
+ opacity: 0px;
+ 
+  font-family: Arial, sans-serif;
+  z-index: 1001;
+}
+
+.issues-details {
+  justify-content: space-between;
+  display: flex;
+ 
+  gap: 10px;
+}
+.issues-logo{
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.pie-logo {
+  height: 40px;
+  width: 40px;
+  background: #f0f4ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.issues-card h4 {
+  font-size: 14px;
+  font-weight:bold;
+  color: #333;
+  margin: 0;
+}
+
+.issues-count {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+}
+
+.growth {
+  text-align: left;
+}
+
+.growth span {
+  color: #0049C6;
+
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.growth p {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+.ai-card {
+  position: fixed;
+  z-index: 1000;
+  width: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+top:15%;
+left: 10%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.ai-card-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ai-logo {
+  height: 24px;
+  width: 24px;
+}
+
+.ai-card-header h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0;
+}
+
+.ai-card-stats {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 12px;
+  color: #666666;
+  margin: 4px 0 0;
+}
+.subtr-logo {
+
+  position: fixed; 
+  bottom: 0;       
+  left: 0;         
+  z-index: 100;    
+    
+}
+@media (max-width: 900px){
+
+  .dashboard-card{
+    display: none;
+  }
+  .welcome{
+    width: 100%;
+  }
+  .policy{
+    text-align: center;
+    margin: 0 20px;
+    font-size: 12px;
+  }
+}
+
