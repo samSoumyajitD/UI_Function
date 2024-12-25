@@ -6,8 +6,6 @@ const MainPage = () => {
     <div>
  <div className="app_div">
         <Sidebar />
-      
-      
       </div>
       <Outlet />
     </div>
