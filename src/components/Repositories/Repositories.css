@@ -12,7 +12,7 @@
   gap: 0px;
   border-radius: 12px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
+
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   
   }
@@ -57,7 +57,7 @@
   padding: 10px 14px 10px 14px;
   
   border: 2px 0px 0px 0px;
-  opacity: 0px;
+
   
     height: 30px;
     color:#414651;
@@ -107,7 +107,7 @@
   padding: 24px ;
   gap: 12px;
   align-items: center;
-  opacity: 0px;
+
     border: 1px solid #e1e4e8;
    
     
